@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 body {
+  background-color: rgb(219, 164, 230);
   font-family: "Outfit", sans-serif;
 }
 header {
@@ -30,16 +31,32 @@ nav a:hover {
   color: rgb(174, 101, 207);
 }
 .colum {
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 5px 3px 10px #dfcddf;
   margin: 50px;
-  width: 150px;
+  width: 250px;
+  border-radius: 10px;
 }
 .colum img {
-  width: 100%;
+  margin-left: 35px;
+  width: 180px;
+}
+.colum p {
+  text-align: justify;
 }
 .colum h1 {
+  text-align: center;
   font-size: 18px;
 }
+.colum:hover {
+  background-color: rgba(255, 255, 255, 0.836);
+}
 .precio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: palevioletred;
 }
 .linea {
@@ -51,4 +68,75 @@ body h1 {
   font-size: 35px;
   display: flex;
   justify-content: center;
+}
+footer {
+  padding: 10px;
+  background-color: grey;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+}
+.producto img {
+  width: 400px;
+  float: left;
+  margin-right: 10px;
+}
+.producto {
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.produc-conent {
+  overflow: auto;
+  font-size: 20px;
+}
+.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 23px;
+  background-color: pink;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgb(230, 206, 210);
+  color: plum;
+  transform: translateY(-7px);
+}
+.historia-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.historia-1 img {
+  margin: 10px;
+  width: 500px;
+  border-radius: 15px;
+}
+.historia-1 p {
+  font-size: 23px;
+}
+.historia-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.historia-2 img {
+  margin: 10px;
+  width: 500px;
+  border-radius: 15px;
+}
+.historia-2 p {
+  font-size: 23px;
 }
