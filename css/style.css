@@ -125,6 +125,7 @@ button:hover {
   border-radius: 15px;
 }
 .historia-1 p {
+  color: whitesmoke;
   font-size: 23px;
 }
 .historia-2 {
@@ -138,5 +139,6 @@ button:hover {
   border-radius: 15px;
 }
 .historia-2 p {
+  color: whitesmoke;
   font-size: 23px;
 }
